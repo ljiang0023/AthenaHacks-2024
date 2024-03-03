@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Oxygen:wght@300;400;700&display=swap');
+
+:root {
+    font-family: 'Jua', sans-serif;
+    scroll-behavior: smooth;
+    color: rgb(22, 22, 22);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 280px;
+    gap: 5px;
+    padding-top: 30px;
+}
+
+#meet-text {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#header-name {
+    color: #B5A6CF;
+    font-size: 40px;
+    border: 4px solid #F8E3A0;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 40px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#header-duck {
+    font-size: 20px;
+}
+
+.duck-icon {
+    border-radius: 100%;
+    background-color: #F8E3A0;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    right: 3px;
+    top: 35px
+}
+
+#duck-text {
+    font-size: 18px;
+    margin-top: 2px;
+    margin-left: 105px;
+}
+
+.goal-box {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+#goal-label {
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    height: 18px;
+    background-color: #6A8371;
+    color: #FFFFFF;
+    font-family: 'Jua', sans-serif;
+    font-size: 20px;
+    line-height: normal;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#goal-desc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 303px;
+    height: 102px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    padding: 16px;
+    gap: 10px;
+    border: 4px solid #6A8371;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: auto;
+}
+
+.instructions-box {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+#instructions-label {
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 25px;
+    color: #FFFFFF;
+    background-color: #E6A5B9;
+    font-family: 'Jua', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 193px;
+}
+
+#instructions-desc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 303px;
+    height: 150px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    padding: 16px;
+    gap: 10px;
+    border: 4px solid #E6A5B9;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: auto;
+}
+
+#start-button {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 104px;
+    height: 35px;
+    background-color: #B5A6CF;
+    color: #FFFFFF;
+    font-family: Jua;
+    font-size: 20px;
+    line-height: normal;
+    border-radius: 20px;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
