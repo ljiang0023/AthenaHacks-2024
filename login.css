@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Oxygen:wght@300;400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center vertically */
+    background-color: #FFFFFF;
+}
+
+.header {
+    margin-top: 30px;
+}
+
+#top-welcome {
+    color: #000000;
+    font-family: 'Jua', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 393px;
+    padding: 1px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0px;
+}
+
+#top-quack {
+    color: #6A8371;
+    font-family: 'Jua', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 393px;
+    display: inline-flex;
+    padding: 1px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0px;
+}
+
+.duck-icon {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    background-image: url('./assets/duck-icon.png');
+    background-size: cover;
+    background-color: #F8E3A0;
+    border-radius: 100%;
+    margin-top: 32px;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #6E5398;
+    height: 191px;
+    width: 300px;
+    margin-top: 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#username-label {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Jua', sans-serif;
+    font-size: 20px;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#username-input {
+    width: 200px;
+    height: 20px;
+    background-color: #F5F5F5;
+    color: #000000;
+    font-family: 'Jua', sans-serif;
+    font-size: 18px;
+    line-height: normal;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+#password-label {
+    display: flex;
+    justify-content: center;
+    color: #F5F5F5;
+    font-family: 'Jua', sans-serif;
+    font-size: 20px;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#password-input {
+    width: 200px;
+    height: 18px;
+    background-color: #F5F5F5;
+    color: #000000;
+    font-family: 'Jua', sans-serif;
+    font-size: 18px;
+    line-height: normal;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#submit-button{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 104px;
+    height: 35px;
+    background-color: #A9BB89;
+    color: #FFFFFF;
+    font-family: Jua;
+    font-size: 20px;
+    line-height: normal;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px 18px;
+}
