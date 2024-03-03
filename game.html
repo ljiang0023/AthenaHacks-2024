@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="quack.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="Script1.js"></script>
+
+    <title> QuackEnergy</title>
+</head>
+
+<body>
+    <div class="progress-bar">
+        <img class="progress-icons" id="Task1" src="Images/Task1_icon.png" alt="Yellow baseball cap">
+        <div class="progress-bar-line"></div>
+        <img class="progress-icons" src="Images/Task2_iconBW.png" alt="Yellow and red sweatshirt">
+        <div class="progress-bar-line"></div>
+        <img class="progress-icons" src="Images/Task3_iconBW.png" alt="Orange Book Bag">
+    </div>
+   
+    <header class="header">
+        <span id="task-num"> Task # 1</span>
+    </header>
+
+    <img id="duck-icon" src="Images/BeginingDuck.png" alt="Duck Icon">
+
+
+    <div class="desc-box">
+        <p id="task-desc">  </p>
+    </div>
+
+    <div class="hint">
+        <p id="hint-button"> HINT </p>
+    </div>
+
+    <div class="password-box">
+        <p id="password-label"> Password: </p>
+        <input type="text" id="password-input" name="password" required />
+    </div>
+
+    <div id="submit">
+        <button id="submit-button"> SUBMIT </button>
+    </div>
+</body>
+
+</html>

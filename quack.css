@@ -28,8 +28,32 @@ body {
     align-items: center;
     gap: 10px;
 }
+.progress-bar {
+    width: 90%;
+    margin-top: 40px;
+    display: inline-flex;
+    justify-content: center;
+}
 
-.duck-icon {
+.progress-bar-line {
+    background-color: grey;
+    margin:auto;
+    margin-right:0px;
+    margin-left:0px;
+    height: 5px;
+    width: 15%;
+
+}
+.progress-icons {
+    width:15%;
+    filter:grayscale(100%);
+}
+.progress-icons.active {
+    width: 15%;
+    filter: grayscale(0);
+}
+
+#duck-icon {
     display: flex;
     justify-content: center;
     align-items: center;

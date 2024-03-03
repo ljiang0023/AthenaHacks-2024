@@ -2,7 +2,7 @@ $(document).ready(function () {
     var taskNum = 1;
     const submitBTN = document.querySelector('#submit-button');
     var PasswordField = document.getElementById('password-input');
-    var errorMessage = document.getElementById('password-label');
+    var duckIcon = document.getElementById('duck-icon');
 
     submitBTN.addEventListener('click', function () {
         var UserIn = PasswordField.value;
@@ -11,6 +11,7 @@ $(document).ready(function () {
             if (UserIn == "Workshop Room") {
                 document.getElementById('task-num').innerText = "Task #2";
                 document.getElementById('task-desc').innerText = "This is Task 2";
+                duckIcon.src = 'Images/Task1_Complete.png';//Changes Image
                 PasswordField.value = "";
                 taskNum++;
             } else {
